@@ -1,0 +1,45 @@
+.text10 {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.text9 {
+	FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.text9black {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.linklimenu {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.textbox {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.link {
+	TEXT-DECORATION: none
+}
+.link:hover {
+	TEXT-DECORATION: underline
+}
+.radio {
+	MARGIN: 0px; WIDTH: 10px; HEIGHT: 10px
+}
+.GenelBaslik {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.mavilikutu {
+	BORDER-RIGHT: #cc66ff 1px solid; BORDER-TOP: #b94569 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cc66ff 1px solid; COLOR: #000000; BORDER-BOTTOM: #cc66ff 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; HEIGHT: 20px; BACKGROUND-COLOR: #eeeeee
+}
+.mavilimetinkutu {
+	BORDER-RIGHT: #cc66ff 1px solid; BORDER-TOP: #b94569 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cc66ff 1px solid; COLOR: #000000; BORDER-BOTTOM: #6d90b0 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; HEIGHT: 100px; BACKGROUND-COLOR: #eeeeee
+}
+.button {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dfdddd
+}
+A {
+	FONT-WEIGHT: bold; COLOR: #535353; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: red; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+
+H2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 0px;FONT-FAMILY: Verdana; COLOR: #4564A1; PADDING-TOP: 2px; TEXT-ALIGN: center}
+

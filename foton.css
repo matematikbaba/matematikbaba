@@ -1,0 +1,67 @@
+BODY {
+	    FONT-FAMILY: verdana,sans-serif; 
+}
+
+A {COLOR: white; TEXT-DECORATION: none}
+A:hover {COLOR: #FF0040}
+
+
+HR {COLOR: #930; HEIGHT: 2px}
+
+TD {FONT-SIZE: 9pt;  LINE-HEIGHT: 12pts}
+
+
+H2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #d33; PADDING-TOP: 2px; TEXT-ALIGN: center}
+
+H2 {BACKGROUND: }
+
+
+.orta {BORDER-RIGHT: #930 1px dotted; PADDING-RIGHT: 10px; BORDER-TOP: #930 1px dotted; PADDING-LEFT: 10px;
+ PADDING-BOTTOM: 10px; BORDER-LEFT: #930 1px dotted; PADDING-TOP: 10px; BORDER-BOTTOM: #930 1px dotted}
+
+
+
+.orta H2 {BACKGROUND: none transparent scroll repeat 0% 0%}
+
+
+.dashbox_green {
+	BORDER-RIGHT: #c00 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: #c00 1px dashed; PADDING-LEFT: 5px; BACKGROUND: #d7ffe3; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #c00 1px dashed; WIDTH: 100%; PADDING-TOP: 5px; BORDER-BOTTOM: #c00 1px dashed
+}
+.dashbox_green_s {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #000; BACKGROUND: #d7ffe3; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 100%; BORDER-TOP-COLOR: #000; PADDING-TOP: 5px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000
+}
+.dashbox_green_c {
+	BORDER-RIGHT: #c00 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: #c00 1px dashed; PADDING-LEFT: 5px; BACKGROUND: #d7ffe3; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #c00 1px dashed; WIDTH: 90%; PADDING-TOP: 5px; BORDER-BOTTOM: #c00 1px dashed
+}
+.dashbox_black {
+	BORDER-RIGHT: #999 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #999 1px dashed; PADDING-LEFT: 10px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #999 1px dashed; WIDTH: 97%; PADDING-TOP: 10px; BORDER-BOTTOM: #999 1px dashed
+}
+.dashbox_black2 {
+	BORDER-RIGHT: #999 1px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #999 1px dashed; PADDING-LEFT: 0px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #999 1px dashed; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px dashed
+}
+.dashbox_red {
+	BORDER-RIGHT: #999 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #999 1px dashed; PADDING-LEFT: 10px; BACKGROUND: #ffe6d5; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #999 1px dashed; WIDTH: 100%; PADDING-TOP: 10px; BORDER-BOTTOM: #999 1px dashed
+}
+.search_form {
+	FONT-SIZE: 9px; HEIGHT: 9px
+}
+.buttons {
+	BORDER-RIGHT: #999999 1px dashed; BORDER-TOP: #999999 1px dashed; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #999999 1px dashed; WIDTH: 120px; BORDER-BOTTOM: #999999 1px dashed; FONT-FAMILY: Tahoma; HEIGHT: 20px; BACKGROUND-COLOR: #bef1be
+}
+.hadis {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #8A515C; FONT-FAMILY: tahoma
+}
+.ravi {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #8A515C; FONT-FAMILY: tahoma
+}
+.button_1 {
+	BORDER-RIGHT: #5fc95f 1px solid; BORDER-TOP: #5fc95f 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #5fc95f 1px solid; COLOR: #000000; BORDER-BOTTOM: #5fc95f 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #c2fcba
+}
+.button_2 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #eeeeee
+}
+
+
+
+
+
