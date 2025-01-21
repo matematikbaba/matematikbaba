@@ -1,0 +1,115 @@
+
+
+<htm>
+<head>
+<title>Doðum Günü<<<bor.sehri.com>>></title>
+<script language="JavaScript">
+<!-- begin script
+
+//General Array Function
+function MakeArray(n) {
+   this.length = n;
+   for (var i = 1; i <=n; i++) {
+     this[i] = 0;
+   }
+}
+
+//Initialize Days of Week Array
+days = new MakeArray(7);
+days[0] = "Cumartesi"
+days[1] = "Pazar"
+days[2] = "Pazartesi"
+days[3] = "Salý"
+days[4] = "Çarsamba"
+days[5] = "Persembe"
+days[6] = "Cuma"
+
+//Initialize Months Array
+months = new MakeArray(12);
+months[1] = "Ocak" 
+months[2] = "Subat" 
+months[3] = "Mart" 
+months[4] = "Nisan" 
+months[5] = "Mayýs" 
+months[6] = "Haziran" 
+months[7] = "Temmuz" 
+months[8] = "Aðustos"
+months[9] = "Eylül" 
+months[10] = "Ekim"
+months[11] = "Kasým"
+months[12] = "Aralýk"
+
+//Day of Week Function
+function compute(form) {
+   var val1 = parseInt(form.day.value, 10)
+   if ((val1 < 0) || (val1 > 31)) {
+      alert("Day is out of range")
+   }
+   var val2 = parseInt(form.month.value, 10)
+   if ((val2 < 0) || (val2 > 12)) {
+      alert("Month is out of range")
+   }  
+   var val2x = parseInt(form.month.value, 10)
+   var val3 = parseInt(form.year.value, 10)
+   if (val3 < 1900) {
+      alert("You're that old!")
+   }
+   if (val2 == 1) {
+      val2x = 13;
+      val3 = val3-1
+   }
+   if (val2 == 2) {
+      val2x = 14;
+      val3 = val3-1
+   }
+   var val4 = parseInt(((val2x+1)*3)/5, 10)
+   var val5 = parseInt(val3/4, 10)
+   var val6 = parseInt(val3/100, 10)
+   var val7 = parseInt(val3/400, 10)
+   var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
+   var val9 = parseInt(val8/7, 10)
+   var val0 = val8-(val9*7)
+   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
+   form.result2.value = days[val0]
+}   
+
+// end script -->
+</script>
+
+</head>
+
+<body>
+<H3 align="center"><font face="Arial, Helvetica, sans-serif">HAFTANIN HANGÝ GÜNÜ 
+  DOÐDUNUZ ?</font></H3>
+<div align="center"><font face="Arial, Helvetica, Verdana">Doðum gününüzü girin 
+  ve "Göster" butonuna basýn! </font></div>
+<P> 
+<FORM>
+  <div align="center"><b><font color="#FF3300" face="Arial, Helvetica, Verdana"> Gün (örn.1-31) : 
+    <INPUT TYPE="text" NAME="day" SIZE=2 >
+    </font></b>
+  </div>
+  <div align="center"> </div>
+  <div align="center"><b><font color="#FF3300" face="Arial, Helvetica, Verdana">  Ay (örn. 1-12) 
+    : 
+    <INPUT TYPE="text" NAME="month" SIZE=2 >
+    </font></b>
+  </div>
+  <P align="center"><b><font color="#FF3300"face="Arial, Helvetica, Verdana"> Yýl (örn. 1978) 
+    : 
+    <INPUT TYPE="text" NAME="year" SIZE=4 >
+    </font></b>
+  <P align="center"> <font face="Arial, Helvetica, sans-serif">
+    <INPUT TYPE="button" VALUE="Göster" ONCLICK="compute(this.form)">
+    <INPUT TYPE="reset" VALUE="Temizle">
+    </font>
+  <P align="center"><font face="Arial, Helvetica, sans-serif"> Doðum Günü : 
+    <INPUT TYPE="text" NAME="result1" SIZE=18 >
+    </font>
+  <P align="center"><font face="Arial, Helvetica, sans-serif"> Haftanýn Günü : 
+    <INPUT TYPE="text" NAME="result2" SIZE=18 >
+    </font>
+</FORM>
+
+</body>
+</htm>
